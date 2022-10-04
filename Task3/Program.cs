@@ -1,4 +1,5 @@
-﻿Console.Write("Введите первое число ");
+﻿//Найти максимальное из трех чисел
+Console.Write("Введите первое число ");
 string First_number = Console.ReadLine();
 double number_first = Convert.ToDouble(First_number);
 Console.Write("Введите второе число ");

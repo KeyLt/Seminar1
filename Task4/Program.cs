@@ -1,4 +1,5 @@
-﻿Console.Write("Введите первое число ");
+﻿// Показать числа от -N до N
+Console.Write("Введите первое число ");
 float First_number = float.Parse(Console.ReadLine());
 Console.Write("Введите второе число ");
 float Second_number = float.Parse(Console.ReadLine());

@@ -1,12 +1,13 @@
-﻿Console.Write("Введите число ");
-float s = float.Parse(Console.ReadLine());
-float k = 23;
-float L;
-// L = s / k;
+﻿//Выяснить, кратно ли число заданному, если нет вывести остаток
+
+Console.Write("Введите первое число ");
+double s = double.Parse(Console.ReadLine());
+Console.Write("Введите второе число ");
+double k = double.Parse(Console.ReadLine());
 
 if (s % k == 0) Console.WriteLine("Кратно");
 
-// else
-// float p;
-// p = s % k;
-//  Console.WriteLine(p);
+else{
+double p = s % k;
+ Console.WriteLine(p);
+}

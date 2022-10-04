@@ -1,4 +1,5 @@
-﻿// int Monday = 1;
+﻿// По заданному гомеру дня недели вывести его название
+// int Monday = 1;
 // int Tuesday = 2;
 // int Wednesday = 3;
 // int Thursday = 4;

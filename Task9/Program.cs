@@ -1,4 +1,5 @@
-﻿Console.Write("Введите трехзначное число ");
+﻿// Удалить вторую цифру трехзначного цисла
+Console.Write("Введите трехзначное число ");
 int s = int.Parse(Console.ReadLine());
 while(s > 99 && s < 1000)
 {
